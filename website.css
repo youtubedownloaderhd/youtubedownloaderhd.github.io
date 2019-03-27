@@ -1,0 +1,253 @@
+
+.icon {
+	max-width: 45px !important;
+	margin-right: 5px;
+}
+.brand{
+	transition: transform .3s;
+}
+.brand:hover {
+
+   transform: scale(1.18);
+}
+
+
+.navbar {
+	padding-top: 1px;
+    padding-bottom: 1px;
+}
+.img-responsive.img-center {
+  margin: 0 auto;
+}
+
+
+
+
+
+.carousel-inner img {
+
+    width: 100%;
+    height: 700px;
+    
+}
+
+.carousel-inner {
+    box-shadow: -7px 6px 10px #3F51B5;
+}
+.gallery-img {
+    max-width: 700px;
+    max-height: 400px ;
+}
+.shadow{
+	 box-shadow: -7px 6px 10px #3F51B5;
+	
+}
+body {
+background: linear-gradient(to right, #03A9F4 , #4CAF50);
+}
+
+.btn-primary {
+	background-color: #4CAA50;
+    border-color: wheat;
+    color: white;
+    font-size: 22px;
+
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #0062cc;
+}
+
+.my-btn {
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.featurefont{
+	font-size: 18px;
+	font-weight:  bold;
+	color: black;
+	font-family: sans-serif;
+}
+.feature-1 {
+    border-right: 1px solid wheat;
+    text-align: justify;
+}
+
+.gallery-section-container
+{
+    background: linear-gradient(to right, #03A9F4 , #4CAF50);
+    padding-bottom: 40px;
+}
+
+
+.fd {
+    display: inline-block;
+}
+.not-for-laptop {
+    display: none;
+}
+
+
+@media(max-width: 710px)     /* For small screen */
+{
+    .not-for-laptop {
+        display: inline-block;
+    }
+	img-container {
+		margin-left: 0px;
+	}
+	.mob-img {
+		margin-left: -3px !important;
+	}
+	.not-for-mob {
+		display: none;
+	}
+    .feature-1 {
+	border-right: none;
+      }
+	canvas {
+		display: none;
+	}
+    .featurefont {
+    font-size: 24px;
+    color: black;
+    font-family: sans-serif;
+   }
+
+   .carousel-inner img {
+
+    width: 100%;
+    height: 350px;
+    }
+
+    .text-left{
+        text-align: left;
+    }
+    
+
+   
+
+}
+
+@media(min-width: 710px)      /* For big screen */
+{
+	.featurefont {
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+     }
+     #demo {
+        width: 950px;
+        margin-left: 79px;
+    }
+    .gallery-img {
+        max-width: 1110px;
+        max-height: 450px;
+    }
+    canvas {
+		display: inline-block !important;
+	}
+}
+
+
+
+
+
+
+
+
+#particles canvas{
+    position: absolute;
+    width: 100%;
+    height: 1500px !important; 
+    z-index: -1;
+    margin-top: -296%;
+}
+
+canvas {
+
+	 width: 100%;
+    height: 100%;
+    margin-top: -296%;
+    
+  }
+
+
+
+  .h3, h3 {
+    font-size: 36px;
+    font-family: cursive;
+}
+
+.black{
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+  /* 
+  
+    <div class="gallery-section-container">
+        <!-- Main container of gallery section -->
+        <section class="container gallery ">
+          <!-- Section gallery section -->
+          <h5 class="text-center pt-3">
+            <img src="iconmain.png" class="text-center brand" style="height: 55px; width=55px;">
+          </h5>
+          <h2 class="text-center pt-0 mb-lg-2 mb-1 brand" style="color: white; ">
+            Youtube Downloader
+            <br>HD & Music</h2>
+
+            <div class="img-container img-fluid text-center">
+
+              <div id="demo" class="carousel mob-img slide text-center" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                  <li data-target="#demo" data-slide-to="4"></li>
+                  <li data-target="#demo" data-slide-to="5"></li>
+                </ul>
+                <div class="carousel-inner shadow">
+                  <div class="carousel-item active">
+                    <img src="img_slide1.jpg" class="img-fluid gallery-img" alt="Los Angeles">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img_slide2.jpg" class="img-fluid gallery-img" alt="Chicago">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img_slide3.jpg" class="img-fluid gallery-img" alt="New York">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img_slide4.jpg" class="img-fluid gallery-img" alt="New York">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img_slide0.jpg" class="img-fluid gallery-img" alt="New York">
+                  </div>
+                </div>
+  
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon" style="background-color: black;"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon" style="background-color: black;"></span>
+              </a>
+            </div>
+          </div>
+          <!-- End of img container -->
+        </section>
+        <!-- ...Gallery section -->
+      </div>
+      <!-- whole Gallery container -->
+
+  */
